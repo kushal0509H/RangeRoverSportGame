@@ -1,0 +1,7 @@
+- name: Build with Pre-licensed Unity
+  uses: game-ci/unity-builder@v2
+  with:
+    unityVersion: 2022.3.17f1
+    targetPlatform: Android
+  env:
+    UNITY_LICENSE: "auto"
