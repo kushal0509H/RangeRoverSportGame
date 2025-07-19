@@ -1,9 +1,9 @@
 name: Build Android APK
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
           targetPlatform: Android
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: android-apk
           path: build/Android/*.apk
