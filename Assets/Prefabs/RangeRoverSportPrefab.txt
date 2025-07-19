@@ -1,0 +1,6 @@
+This is a placeholder text file representing the Range Rover Sport prefab structure.
+In Unity:
+1. Create empty GameObject "RangeRoverSport".
+2. Add Rigidbody, VehicleController, Drivetrain, etc.
+3. Attach all wheel colliders and meshes.
+4. Drag this object into Assets/Prefabs to create a prefab.
